@@ -10,7 +10,7 @@
 
 *   **Extreme Performance**: Achieves **37.4 tok/s** on an **NVIDIA GTX 1650 Ti 4GB** laptop GPU running the **Gemma 2B Q6_K** model, with **52.6%** memory bandwidth utilization — hitting the physical limit of this entry-level card.
 *   **Pure Rust, Self-Contained**: From GGUF parsing and BPE tokenization to CUDA kernels (Q6_K dequantization, FlashAttention) and CUDA Graph pipeline scheduling — all written from scratch in Rust. Zero C++ dependencies.
-*   **Ultra-Lightweight**: Core binary is only **~4MB**. Minimal resource footprint, instant startup.
+*   **Ultra-Lightweight**: Core binary is only **~2.3MB**. Minimal resource footprint, instant startup.
 *   **Memory Safety**: Leverages Rust's ownership model to guarantee memory safety at compile time, eliminating undefined behavior (UB) common in C++.
 *   **Zero-Config Run**: Pre-built Windows executable (`.exe`) provided. Download, extract, and double-click to run. No environment setup required.
 
@@ -55,7 +55,7 @@ Same hardware (GTX 1650 Ti 4GB) and same model (Gemma 2B Q6_K):
 | :--- | :--- | :--- | :--- |
 | **Decoding Speed** | **37.4 tok/s** | 35–45 tok/s | Tied / Mutual wins |
 | **Time to First Token (TTFT)** | ~30ms | ~20-25ms | Slightly behind, but acceptable |
-| **Binary Size** | **~4 MB** | >100 MB | **SychicAI wins** |
+| **Binary Size** | **2.3 MB** | >100 MB | **SychicAI wins** |
 | **Memory Safety** | **Guaranteed** | Potential UB | **SychicAI wins** |
 | **Self-Developed Purity** | **100%** | 100% | Tied |
 
