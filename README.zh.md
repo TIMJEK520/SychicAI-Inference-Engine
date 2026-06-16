@@ -1,10 +1,10 @@
-# SychicAI 推理引擎
+# SychicAI® 推理引擎
 
 [![License: Evaluation](https://img.shields.io/badge/License-Evaluation-blue)](./LICENSE)
 [![Rust](https://img.shields.io/badge/made%20with-Rust-red)](https://www.rust-lang.org/)
 [![CUDA](https://img.shields.io/badge/CUDA-NVIDIA-green)](https://developer.nvidia.com/cuda-toolkit)
 
-**SychicAI** 是一个纯 Rust 编写的大语言模型（LLM）推理引擎，专为在入门级 NVIDIA GPU 上实现极致性能而设计。通过对底层硬件的精细优化，它在资源受限的设备上达到了与业界标杆 `llama.cpp` 同级别的推理速度。
+**SychicAI®** 是一个纯 Rust 编写的大语言模型（LLM）推理引擎，专为在入门级 NVIDIA GPU 上实现极致性能而设计。通过对底层硬件的精细优化，它在资源受限的设备上达到了与业界标杆 `llama.cpp` 同级别的推理速度。
 
 ## ✨ 核心特性
 
@@ -51,7 +51,7 @@
 
 同硬件（GTX 1650 Ti 4GB）和同模型（Gemma 2B Q6_K）下的对比：
 
-| 指标 | SychicAI | llama.cpp | 胜负 |
+| 指标 | SychicAI® | llama.cpp | 胜负 |
 | :--- | :--- | :--- | :--- |
 | **解码速度** | **37.9-38.2/s** | 35–45 tok/s | 打平 / 互有胜负 |
 | **首字延迟 (TTFT)** | ~30ms | ~20-25ms | 略微落后，但在可接受范围 |
