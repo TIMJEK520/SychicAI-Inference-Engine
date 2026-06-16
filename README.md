@@ -8,7 +8,7 @@
 
 ## ✨ Key Features
 
-*   **Extreme Performance**: Achieves **37.4 tok/s** on an **NVIDIA GTX 1650 Ti 4GB** laptop GPU running the **Gemma 2B Q6_K** model, with **52.6%** memory bandwidth utilization — hitting the physical limit of this entry-level card.
+*   **Extreme Performance**: Achieves **37.9-38.2 tok/s** on an **NVIDIA GTX 1650 Ti 4GB** laptop GPU running the **Gemma 2B Q6_K** model, with **52.6%** memory bandwidth utilization — hitting the physical limit of this entry-level card.
 *   **Pure Rust, Self-Contained**: From GGUF parsing and BPE tokenization to CUDA kernels (Q6_K dequantization, FlashAttention) and CUDA Graph pipeline scheduling — all written from scratch in Rust. Zero C++ dependencies.
 *   **Ultra-Lightweight**: Core binary is only **~2.3MB**. Minimal resource footprint, instant startup.
 *   **Memory Safety**: Leverages Rust's ownership model to guarantee memory safety at compile time, eliminating undefined behavior (UB) common in C++.
