@@ -1,10 +1,10 @@
-# SychicAI Inference Engine
+# SychicAI® Inference Engine
 
 [![License: Evaluation](https://img.shields.io/badge/License-Evaluation-blue)](./LICENSE)
 [![Rust](https://img.shields.io/badge/made%20with-Rust-red)](https://www.rust-lang.org/)
 [![CUDA](https://img.shields.io/badge/CUDA-NVIDIA-green)](https://developer.nvidia.com/cuda-toolkit)
 
-**SychicAI** is a pure-Rust large language model (LLM) inference engine, designed to deliver extreme performance on entry-level NVIDIA GPUs. It achieves inference speeds comparable to the industry benchmark `llama.cpp` on resource-constrained hardware through meticulous low-level optimization.
+**SychicAI®** is a pure-Rust large language model (LLM) inference engine, designed to deliver extreme performance on entry-level NVIDIA GPUs. It achieves inference speeds comparable to the industry benchmark `llama.cpp` on resource-constrained hardware through meticulous low-level optimization.
 
 ## ✨ Key Features
 
@@ -73,4 +73,4 @@ For full terms, see the [LICENSE](./LICENSE) file.
 
 ---
 
-*This project is a personal endeavor. We are grateful for your interest and feedback.*
+SychicAI® is a registered trademark of 赛刻灵算科技（深圳）有限公司 (Trademark Registration No.: 76273384).
