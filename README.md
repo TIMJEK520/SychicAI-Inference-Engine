@@ -1,6 +1,6 @@
 # SychicAI Inference Engine
 
-[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+[![License: Evaluation](https://img.shields.io/badge/License-Evaluation-blue)](./LICENSE)
 [![Rust](https://img.shields.io/badge/made%20with-Rust-red)](https://www.rust-lang.org/)
 [![CUDA](https://img.shields.io/badge/CUDA-NVIDIA-green)](https://developer.nvidia.com/cuda-toolkit)
 
@@ -34,22 +34,7 @@
 2.  Extract it to any folder.
 3.  Double-click `run.bat` to start chatting with the model.
 
-### Build from Source
-
-1.  Make sure [Rust](https://www.rust-lang.org/) and the [CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit) are installed.
-2.  Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/SychicAI-Inference-Engine.git
-    cd SychicAI-Inference-Engine
-    ```
-3.  Build the project:
-    ```bash
-    cargo build --release
-    ```
-4.  Run the engine (make sure the model file `gemma-2b-q6_k.gguf` is at the correct path):
-    ```bash
-    ./target/release/sychic -m /path/to/gemma-2b-q6_k.gguf -p "Your prompt"
-    ```
+> **Note**: This release provides pre-built binaries only. Source code is not included.
 
 ## 🛠️ Technical Architecture
 
@@ -74,16 +59,18 @@ Same hardware (GTX 1650 Ti 4GB) and same model (Gemma 2B Q6_K):
 | **Memory Safety** | **Guaranteed** | Potential UB | **SychicAI wins** |
 | **Self-Developed Purity** | **100%** | 100% | Tied |
 
-## 🤝 Contributing & Support
+## 🤝 Support & Contact
 
 *   **Report Issues**: Submit bugs or feature requests via [GitHub Issues](https://github.com/TIMJEK520/SychicAI-Inference-Engine/issues).
-*   **Commercial Licensing**: For closed-source commercial use, please contact: [2910139559@qq.com]
-*   **Community Discussion**: [ QQ group link:点击链接加入群聊【SychicAI Inference Engine】：https://qun.qq.com/universal-share/share?ac=1&authKey=YO0gbM0CQ0Hvy8midHGVPBdUY9ZgrDpMqTcPaSWB3hnKcaZf62EoGMeKWpi5n%2B2p&busi_data=eyJncm91cENvZGUiOiI3NjA1MjQwNzgiLCJ0b2tlbiI6ImhXd1pEdDNTNW9nVFUvNHVnOHRjRnZOb3dtQjRSV1ZJc281dWkrSXYyUE5NNVlxY2pHZ2ZZR091bXJNV0dVQ1giLCJ1aW4iOiIyNTk1MTIxNjMxIn0%3D&data=fULPf4uznqgM86hVTyQOaheixdafnWlBLEnu5UMcyaewu3L22etsF6UxmuCwGEtxfHM53KdqIQHrbV-FO7AIPQ&svctype=4&tempid=h5_group_info]
+*   **Commercial Licensing & Custom Development**: Please contact us at [2910139559@qq.com](mailto:2910139559@qq.com).
+*   **Community Discussion**: Join our [QQ Group](https://qun.qq.com/universal-share/share?ac=1&authKey=YO0gbM0CQ0Hvy8midHGVPBdUY9ZgrDpMqTcPaSWB3hnKcaZf62EoGMeKWpi5n%2B2p&busi_data=eyJncm91cENvZGUiOiI3NjA1MjQwNzgiLCJ0b2tlbiI6ImhXd1pEdDNTNW9nVFUvNHVnOHRjRnZOb3dtQjRSV1ZJc281dWkrSXYyUE5NNVlxY2pHZ2ZZR091bXJNV0dVQ1giLCJ1aW4iOiIyNTk1MTIxNjMxIn0%3D&data=fULPf4uznqgM86hVTyQOaheixdafnWlBLEnu5UMcyaewu3L22etsF6UxmuCwGEtxfHM53KdqIQHrbV-FO7AIPQ&svctype=4&tempid=h5_group_info).
 
 ## 📜 License
 
-This project is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**.
+This binary release is provided under the **Evaluation License**. You are free to download and use it for personal, non-commercial research and testing. Commercial use, reverse engineering, and redistribution of modified versions are prohibited.
 
-In short, you are free to use, modify, and distribute this project under the AGPL-3.0 license. However, **if you deploy a modified version as a network service (SaaS), you must make the corresponding source code of your modifications publicly available to all users.**
+For full terms, see the [LICENSE](./LICENSE) file.
 
-For full details, see the [LICENSE](LICENSE) file.
+---
+
+*This project is a personal endeavor. We are grateful for your interest and feedback.*
