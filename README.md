@@ -53,7 +53,7 @@ Same hardware (GTX 1650 Ti 4GB) and same model (Gemma 2B Q6_K):
 
 | Metric | SychicAI | llama.cpp | Verdict |
 | :--- | :--- | :--- | :--- |
-| **Decoding Speed** | **37.4 tok/s** | 35–45 tok/s | Tied / Mutual wins |
+| **Decoding Speed** | **37.9-38.2tok/s** | 35–45 tok/s | Tied / Mutual wins |
 | **Time to First Token (TTFT)** | ~30ms | ~20-25ms | Slightly behind, but acceptable |
 | **Binary Size** | **2.3 MB** | >100 MB | **SychicAI wins** |
 | **Memory Safety** | **Guaranteed** | Potential UB | **SychicAI wins** |
